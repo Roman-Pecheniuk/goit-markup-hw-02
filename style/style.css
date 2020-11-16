@@ -16,7 +16,6 @@ body{
     letter-spacing: 0.02em;
     background-color: #ffffff;
     color: #212121, 100 %;
-
 }
 
 .list,
@@ -111,7 +110,7 @@ h1{
 .features .title,
 .projects-list .title{
     color: var(--prime-text-color);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -125,17 +124,24 @@ h1{
 }
 
 .features .text,
-.team .text,
 .projects-list .text{
     color: var(--text-color);
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;  
 }
 
+.team .text{
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+}
+
 /* footer */
-footer .contact-list{
+footer{
     background-color:var(--bgc2-color);
     line-height: 1.71;
 }
