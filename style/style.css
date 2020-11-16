@@ -8,14 +8,14 @@
 }
 
 body{
-    font-family: roboto;
+    font-family: roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     background-color: #ffffff;
-    color: 212121, 100 %;
+    color: #212121, 100 %;
 
 }
 
@@ -57,15 +57,18 @@ a{
 
 h1{
     color: #ffffff;
-    text-align: center;
     font-weight: 900;
     font-size: 44px;
-    line-height: normal;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button{
     color: white;
     background-color: var(--link-color);
+    font-family: inherit;
 }
 
 .button.primary{
@@ -101,22 +104,40 @@ h1{
 }
 
 /* features */
+.text{
+    font-weight: 400;
+}
 
 .features .title,
-.team .title,
 .projects-list .title{
     color: var(--prime-text-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.team .title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
 }
 
 .features .text,
 .team .text,
 .projects-list .text{
     color: var(--text-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;  
 }
 
 /* footer */
-footer{
+footer .contact-list{
     background-color:var(--bgc2-color);
+    line-height: 1.71;
 }
 
 .link{
